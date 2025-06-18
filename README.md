@@ -35,6 +35,45 @@ Para rodar este projeto localmente, você precisará ter instalado:
   * Visual Studio Code (VSCode), da empresa Microsoft https://code.visualstudio.com/
   * Eclipse, uma organização sem fins lucrativos https://eclipseide.org/
 
+
+### 🪄 Baixando o projeto para o seu PC
+Estamos levando em consideração que você já tenha o GIT instalado no seu computador e que esteja devidamente configurado.
+ Agora, siga os passos abaixo para poder executar o projeto no seu PC.
+1. Abra o seu terminal e digite o seguinte comando:
+
+```
+git clone https://github.com/fabioklopes/petshopmalucao.git
+``` 
+
+2. Ainda no terminal, após terminar o processo do Git Clone, faça este comando:
+
+```
+./gradlew clean build
+```
+
+3. Agora você precisa atualizar as dependências do projeto:
+
+```
+./gradlew build --refresh-dependencies
+```
+
+4. Por fim, execute o projeto:
+
+```
+./gradlew bootrun
+```
+
+Se tudo ocorreu perfeitamente bem, no final das instruções um Status % aparecerá no seu terminal com a seguinte frase: 
+```
+TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+
+PetshopMalucaoApplication : Started PetshopmalucaoApplication
+<==========---> 80% EXECUTING
+> :bootrun
+▮
+```
+Isso significa que o seu projeto está funcionando e para poder fazer os testes, utilize um gerenciador de protocolos HTTP (Postman, por exemplo).
+
 ### 🗝️ Informações Extras
 Você pode querer saber mais sobre as tecnologias utilizadas aqui neste projeto. Logo abaixo estão algumas explicações 
 que podem te ajudar a crescer no mundo Springboot e APIs RESTful.
