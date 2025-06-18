@@ -36,8 +36,8 @@ Para rodar este projeto localmente, você precisará ter instalado:
   * Eclipse, uma organização sem fins lucrativos https://eclipseide.org/
 
 ### 🗝️ Informações Extras
-Você pode querer saber mais sobre as tecnologias utilizadas aqui neste projeto. Logo abaixo estão alguns links que podem 
-te ajudar a crescer no mundo Springboot e APIs RESTful.
+Você pode querer saber mais sobre as tecnologias utilizadas aqui neste projeto. Logo abaixo estão algumas explicações 
+que podem te ajudar a crescer no mundo Springboot e APIs RESTful.
 
 API significa Interface de Programação de Aplicações (do inglês, _Application Programming Interface_). É um conjunto de 
 regras e padrões que permite que diferentes softwares se comuniquem e interajam entre si. Desta forma, eles podem trocar 
@@ -51,5 +51,5 @@ si, um conjunto de restrições e princípios.
 
 
 ### ✉️ Contatos
-Para maiores informações, entre em contato comigo:
-[fabioklopes@outlook.com.br](fabioklopes@outlook.com.br)
+Para mais informações, sugestões, críticas ou elogios, entre em contato comigo:
+[fabioklopes@outlook.com.br](fabioklopes@outlook.com.br).
